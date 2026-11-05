@@ -14,7 +14,7 @@ public class Helpers240 {
      * Returns the larger of a and b.
      */
     public static int larger(int a, int b) {
-        return Math.min(a, b);
+        return Math.max(a, b);
     }
 
     /**
@@ -49,7 +49,7 @@ public class Helpers240 {
      * Returns the sum of left and right.
      */
     public static int total(int left, int right) {
-        return left - right;
+        return left + right;
     }
 
     /**
